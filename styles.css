@@ -4,13 +4,14 @@
   box-sizing: border-box;
 }
 .container {
-    width: 90rem;
-    margin: 1rem auto;
-  }
+  width: 90rem;
+  margin: 1rem auto;
+}
 
 body {
   font-family: sans-serif;
   color: #444;
+  background-size: 100vw 100vh;
 }
 
 .main-header {
@@ -18,77 +19,71 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-#header-img{
-    width: 2.5rem;
-    height: 2.5rem;
-    margin-right: -38rem;
+#header-img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: -38rem;
 }
-.nav-bar{
+.nav-bar {
   position: fixed;
 }
 .nav-link {
-    margin-right: 6rem;
-    text-decoration: none;
-    color: black;
+  margin-right: 6rem;
+  text-decoration: none;
+  color: black;
 }
-.nav-link:last-child { 
-    margin-right: 4rem;
+.nav-link:last-child {
+  margin-right: 4rem;
 }
 
-.row-1{
-    margin-top: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.row-1 {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.row-2{
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.row-2 {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.row-3{
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.row-3 {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.features{
+.features {
   padding: 2rem;
   width: 80rem;
   margin: 1rem auto;
 }
-.features-row-1{
+.features-row-1 {
   margin-top: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:4rem;
+  gap: 4rem;
 }
-.features-row-2{
+.features-row-2 {
   margin-top: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:4rem;
+  gap: 4rem;
 }
-.features-row-3{
+.features-row-3 {
   margin-top: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:4rem;
+  gap: 4rem;
 }
-.f-info{
+.f-info {
   width: 52rem;
 }
 
-.bi{
+.bi {
   font-size: 4rem;
 }
-
-
-
-   
-    
-
