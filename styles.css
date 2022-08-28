@@ -37,7 +37,7 @@ body {
 }
 
 .row-1 {
-  margin-top: 1rem;
+  margin-top: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,6 +50,7 @@ body {
 }
 .row-3 {
   margin-top: 1rem;
+  margin-bottom: -3rem;
   display: flex;
   justify-content: center;
   align-items: center;
