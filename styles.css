@@ -76,29 +76,32 @@ body {
   margin-right: 2rem;
 } */
 
-.row-1 {
-  margin-top: 3rem;
+.section-cta {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
 }
-.row-2 {
-  margin-top: 1rem;
+/* form{
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.row-3 {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  flex-direction: column;
+} */
+
+/* .email-input{
+  display: block;
+  width: 20rem;
+  text-align: center;
+} */
+
 .features {
   padding: 2rem;
   width: 80%;
-  margin: 0.5rem auto;
+  margin: 0rem auto;
   margin-top: 2rem;
+  margin-bottom: 4rem;
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -185,7 +188,7 @@ body {
   font-size: 1em;
   font-weight: 400;
 }
-.container{
+.container {
   max-width: 63rem;
   margin: 0 auto;
 }
