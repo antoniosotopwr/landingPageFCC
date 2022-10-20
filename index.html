@@ -10,6 +10,14 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
     />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </head>
 
   <body>
@@ -26,102 +34,105 @@
       </nav>
     </header>
     <main>
-      <section class="section-cta">
-        <h2 class="form-title">Handcrafted, home-made masterpieces</h2>
+      <div class="container">
+        <section class="section-cta">
+          <h2 class="form-title">Handcrafted, home-made masterpieces</h2>
 
-        <input
-          class="email-input margin-top"
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Enter your email address"
-        />
+          <input
+            class="email-input margin-top"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+          />
 
-        <button class="input-btn margin-top" type="submit" value="Submit">
-          Get started
-        </button>
-      </section>
-      <section class="features">
-        <div class="features-row-1">
-          <i class="bi bi-award"></i>
-          <div class="f-info">
-            <h3>Premium materials</h3>
-            <p class="text-feature">
-              Our trombones use the shiniest brass which is sourced locally.
-              This will increase the longevity of your purchase.
-            </p>
+          <button class="input-btn margin-top" type="submit" value="Submit">
+            Get started
+          </button>
+        </section>
+        <section class="features">
+          <div class="features-row-1">
+            <ion-icon class="icon" name="ribbon"></ion-icon>
+            <div class="f-info">
+              <h3>Premium materials</h3>
+              <p class="text-feature">
+                Our trombones use the shiniest brass which is sourced locally.
+                This will increase the longevity of your purchase.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="features-row-2">
-          <i class="bi bi-truck"></i>
-          <div class="f-info">
-            <h3>Fast Shipping</h3>
-            <p class="text-feature">
-              We make sure you recieve your trombone as soon as we have finished
-              making it. We also provide free returns if you are not satisfied.
-            </p>
+          <div class="features-row-2">
+            <ion-icon class="icon" name="boat"></ion-icon>
+            <div class="f-info">
+              <h3>Fast Shipping</h3>
+              <p class="text-feature">
+                We make sure you recieve your trombone as soon as we have
+                finished making it. We also provide free returns if you are not
+                satisfied.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="features-row-3">
-          <i class="bi bi-battery-full"></i>
-          <div class="f-info">
-            <h3>Quality Assurance</h3>
-            <p class="text-feature">
-              For every purchase you make, we will ensure there are no damages
-              or faults and we will check and test the pitch of your instrument.
-            </p>
+          <div class="features-row-3">
+            <ion-icon class="icon" name="battery-full-outline"></ion-icon>
+            <div class="f-info">
+              <h3>Quality Assurance</h3>
+              <p class="text-feature">
+                For every purchase you make, we will ensure there are no damages
+                or faults and we will check and test the pitch of your
+                instrument.
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <div class="container-video">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/y8Yv4pnO7qc"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+        <div class="container-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <section class="pricing">
+          <div class="card">
+            <h2>Tenor Trombone</h2>
+            <h3>$600</h3>
+            <ol>
+              <li>Easy to use</li>
+              <li>Fun</li>
+              <li>Perfect to develop mind</li>
+            </ol>
+            <button class="button">Select</button>
+          </div>
+
+          <div class="card">
+            <h2>Bass Trombone</h2>
+            <h3>$900</h3>
+            <ol>
+              <li>Easy to use</li>
+              <li>Fun</li>
+              <li>Perfect to develop mind</li>
+            </ol>
+            <button class="button">Select</button>
+          </div>
+
+          <div class="card">
+            <h2>Valve Trombone</h2>
+            <h3>$1200</h3>
+            <ol>
+              <li>Easy to use</li>
+              <li>Fun</li>
+              <li>Perfect to develop mind</li>
+            </ol>
+            <button class="button">Select</button>
+          </div>
+        </section>
       </div>
-
-      <section class="pricing">
-        <div class="card">
-          <h2>Tenor Trombone</h2>
-          <h3>$600</h3>
-          <ol>
-            <li>Easy to use</li>
-            <li>Fun</li>
-            <li>Perfect to develop mind</li>
-          </ol>
-          <button class="button">Select</button>
-        </div>
-
-        <div class="card">
-          <h2>Bass Trombone</h2>
-          <h3>$900</h3>
-          <ol>
-            <li>Easy to use</li>
-            <li>Fun</li>
-            <li>Perfect to develop mind</li>
-          </ol>
-          <button class="button">Select</button>
-        </div>
-
-        <div class="card">
-          <h2>Valve Trombone</h2>
-          <h3>$1200</h3>
-          <ol>
-            <li>Easy to use</li>
-            <li>Fun</li>
-            <li>Perfect to develop mind</li>
-          </ol>
-          <button class="button">Select</button>
-        </div>
-      </section>
     </main>
-    <!-- </div> -->
     <div class="container">
       <footer>
         <ul class="footer-ul">
