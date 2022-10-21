@@ -1,0 +1,22 @@
+/* ************************** */
+/* BELOW 984px (Tablets) */
+/* ************************** */
+@media (max-width: 61.5em) {
+    .grid--3-cols {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    
+}
+
+
+/* ************************** */
+/* BELOW 768px (Tablets) */
+/* ************************** */
+
+@media (max-width: 48em) {
+
+    .pricing{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
