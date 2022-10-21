@@ -2,21 +2,39 @@
 /* BELOW 984px (Tablets) */
 /* ************************** */
 @media (max-width: 61.5em) {
-    .grid--3-cols {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    
+  .grid {
+    column-gap: 3rem;
+    row-gap: 2rem;
+  }
+  .grid--3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card-1 {
+    justify-self: end;
+  }
+  .card-2 {
+    justify-self: start;
+  }
+  .card-3 {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
 }
 
-
 /* ************************** */
-/* BELOW 768px (Tablets) */
+/* BELOW 700px (Tablets) */
 /* ************************** */
 
-@media (max-width: 48em) {
+@media (max-width: 44em) {
+    .grid {
+        column-gap: 3rem;
+        row-gap: 2rem;
+      }
+      .grid--3-cols {
+        grid-template-columns: 1fr;
+      }
+      .card-1,.card-2,.card-3 {
+        justify-self: center;
+      }
 
-    .pricing{
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
 }
