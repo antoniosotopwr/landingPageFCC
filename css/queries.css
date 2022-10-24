@@ -77,6 +77,14 @@
     visibility: visible;
   }
 
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
   .main-nav-list {
     flex-direction: column;
     gap: 3rem;
