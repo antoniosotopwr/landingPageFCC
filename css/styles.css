@@ -97,7 +97,6 @@ body {
   text-align: center;
   gap: 1rem;
   margin-top: 6rem;
-  margin-bottom: 3rem;
 }
 /* form{
   display: flex;
@@ -113,8 +112,8 @@ body {
 .features {
   width: 100%;
   margin: 0 auto;
-  margin: 2rem auto 0 auto;
-  padding: 2rem 5rem 2rem 5rem;
+  /* The padding-top here is for the menu nav and space correctly */
+  padding: 7rem 5rem 2rem 5rem;
   display: flex;
   flex-direction: column;
   gap: 3rem;
