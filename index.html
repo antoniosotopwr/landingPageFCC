@@ -19,11 +19,13 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+
+    <script defer src="script.js"></script>
   </head>
 
   <body>
     <!-- <div class="container"> -->
-    <header id="header" class="main-header nav-open">
+    <header id="header" class="main-header">
       <div class="logo-nav nav-logo">
         <img id="header-img" src="/img/trombone.png" />
         <h1>Original Trombones</h1>
@@ -31,13 +33,13 @@
       <nav class="main-nav">
         <ul class="main-nav-list nav-list">
           <li>
-            <a href="#" class="nav-link">Features</a>
+            <a href="#features" class="nav-link">Features</a>
           </li>
           <li>
             <a href="#" class="nav-link">How it works</a>
           </li>
           <li>
-            <a href="#" class="nav-link">Pricing</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
           </li>
         </ul>
       </nav>
@@ -63,7 +65,7 @@
             Get started
           </button>
         </section>
-        <section class="features">
+        <section class="features" id="features">
           <div class="features-row-1">
             <ion-icon class="icon" name="ribbon"></ion-icon>
             <div class="f-info">
@@ -109,7 +111,7 @@
           </div>
         </section>
 
-        <section class="pricing grid grid--3-cols">
+        <section class="pricing grid grid--3-cols" id="pricing">
           <div class="card card-1">
             <h2>Tenor Trombone</h2>
             <h3>$600</h3>

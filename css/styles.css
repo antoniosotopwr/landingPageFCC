@@ -11,6 +11,8 @@
 body {
   font-family: "Lato", sans-serif;
   color: #444;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
   /* background-size: 100vw 100vh; */
 }
 
