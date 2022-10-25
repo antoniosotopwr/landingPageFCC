@@ -35,6 +35,11 @@ body {
   z-index: 9999;
 }
 
+h1{
+  font-family: 'Lora', serif;
+  /* font-size: 2rem; */
+}
+
 /* MOBILE MENU NAV BTN */
 
 .btn-mobile-nav {
