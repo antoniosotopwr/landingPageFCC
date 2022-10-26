@@ -19,24 +19,15 @@
     grid-column: 1 / -1;
     justify-self: center;
   }
-}
-
-/* ************************** */
-/* BELOW 700px (Tablets) */
-/* ************************** */
-
-@media (max-width: 44em) {
-  .grid {
-    column-gap: 3rem;
-    row-gap: 2rem;
+  .nav-logo{
+    gap: 0.5rem;
   }
-  .grid--3-cols {
-    grid-template-columns: 1fr;
+  #header-img {
+    width: 2rem;
+    height: 2rem;
   }
-  .card-1,
-  .card-2,
-  .card-3 {
-    justify-self: center;
+  h1 {
+    font-size: 1.8rem;
   }
 
   /* MOBILE NAVIGATION */
@@ -97,5 +88,45 @@
   .nav-link:link,
   .nav-link:visited {
     font-size: 2rem;
+  }
+}
+
+/* ************************** */
+/* BELOW 700px (Tablets) */
+/* ************************** */
+
+@media (max-width: 44em) {
+  .grid {
+    column-gap: 3rem;
+    row-gap: 2rem;
+  }
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+  }
+  .card-1,
+  .card-2,
+  .card-3 {
+    justify-self: center;
+  }
+  #header-img {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
+}
+
+/* ************************** */
+/* BELOW 544px (Phones) */
+/* ************************** */
+/* maybe this could be for below 375px */
+@media (max-width: 34em) {
+  #header-img {
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+  h1 {
+    font-size: 1.4rem;
   }
 }
