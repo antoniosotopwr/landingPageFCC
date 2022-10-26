@@ -19,7 +19,7 @@
     grid-column: 1 / -1;
     justify-self: center;
   }
-  .nav-logo{
+  .nav-logo {
     gap: 0.5rem;
   }
   #header-img {
@@ -128,5 +128,18 @@
   }
   h1 {
     font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 24em) {
+  .footer-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 0.2rem;
+  }
+  span {
+    justify-content: center;
   }
 }
