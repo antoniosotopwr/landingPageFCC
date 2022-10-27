@@ -35,8 +35,8 @@ body {
   z-index: 9999;
 }
 
-h1{
-  font-family: 'Lora', serif;
+h1 {
+  font-family: "Lora", serif;
   /* font-size: 2rem; */
 }
 
@@ -119,7 +119,7 @@ h1{
   width: 100%;
   margin: 0 auto;
   /* The padding-top here is for the menu nav and space correctly */
-  padding: 7rem 5rem 2rem 5rem;
+  padding: 7rem 3rem 2rem 3rem;
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -135,26 +135,15 @@ h1{
   font-size: 1rem;
   line-height: 1.5;
 }
-.features-row-1 {
+.features-row {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 4rem;
-}
-.features-row-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
-}
-.features-row-3 {
-  display: flex;
-  justify-content: center;
+  padding: 0 2rem;
   align-items: center;
   gap: 4rem;
 }
 .f-info {
-  width: 52rem;
+  max-width: 52rem;
 }
 .section-video {
   margin: 2rem auto;
