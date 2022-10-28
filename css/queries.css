@@ -142,4 +142,14 @@
   span {
     justify-content: center;
   }
+  .features-row {
+    display: grid;
+    row-gap: 0.8rem;
+    /* flex-direction: column;
+    justify-content: start;
+    align-items: center; */
+    /* padding: 0 2rem;
+    gap: 4rem; */
+  }
+  
 }
