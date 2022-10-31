@@ -120,6 +120,9 @@ h1 {
   margin: 0 auto;
   /* The padding-top here is for the menu nav and space correctly */
   padding: 7rem 1rem 2rem 1rem;
+  /* display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 3rem; */
   display: flex;
   flex-direction: column;
   gap: 3rem;

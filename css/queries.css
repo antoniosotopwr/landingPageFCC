@@ -133,8 +133,10 @@
     width: 80%;
     height: 13rem;
   }
+
   .features-row {
     display: grid;
+    grid-template-columns: 1fr;
     row-gap: 0.8rem;
     /* flex-direction: column;
     justify-content: start;
